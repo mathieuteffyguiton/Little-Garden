@@ -1,0 +1,61 @@
+{
+  "zones": [
+    {
+      "id": "village",
+      "name": "Village du héros",
+      "role": "Tutoriel"
+    },
+    {
+      "id": "zone_01",
+      "name": "Bois des Cendres",
+      "mechanic": "chemins cachés",
+      "ability_reward": "shadow_dash"
+    },
+    {
+      "id": "zone_02",
+      "name": "Marais Noir",
+      "mechanic": "poison et timing",
+      "ability_required": "shadow_dash"
+    },
+    {
+      "id": "zone_03",
+      "name": "Falaises du Vent",
+      "mechanic": "vent qui pousse"
+    },
+    {
+      "id": "zone_04",
+      "name": "Désert des Mirages",
+      "mechanic": "orientation et faux chemins"
+    },
+    {
+      "id": "zone_05",
+      "name": "Mines d'Acier",
+      "mechanic": "rails et wagonnets"
+    },
+    {
+      "id": "zone_06",
+      "name": "Catacombes Oubliées",
+      "mechanic": "obscurité et torches"
+    },
+    {
+      "id": "zone_07",
+      "name": "Forteresse de Glace",
+      "mechanic": "glissade"
+    },
+    {
+      "id": "zone_08",
+      "name": "Royaume Corrompu",
+      "mechanic": "embuscades et survie"
+    },
+    {
+      "id": "zone_09",
+      "name": "Sanctuaire du Néant",
+      "mechanic": "portails et dimensions"
+    },
+    {
+      "id": "zone_10",
+      "name": "Forteresse du Tyran",
+      "mechanic": "mélange final"
+    }
+  ]
+}
