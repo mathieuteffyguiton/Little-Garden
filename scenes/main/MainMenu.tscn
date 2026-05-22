@@ -1,0 +1,168 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/ui/MainMenu.gd" id="1"]
+
+[node name="MainMenu" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.07, 0.08, 0.1, 1)
+
+[node name="Root" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="MainPanel" type="VBoxContainer" parent="Root"]
+
+[node name="Title" type="Label" parent="Root/MainPanel"]
+text = "LITTLE GARDEN"
+horizontal_alignment = 1
+
+[node name="ContinueButton" type="Button" parent="Root/MainPanel"]
+text = "Continuer"
+
+[node name="NewGameButton" type="Button" parent="Root/MainPanel"]
+text = "Nouvelle partie"
+
+[node name="LoadGameButton" type="Button" parent="Root/MainPanel"]
+text = "Charger une partie"
+
+[node name="SettingsButton" type="Button" parent="Root/MainPanel"]
+text = "Paramètres"
+
+[node name="QuitButton" type="Button" parent="Root/MainPanel"]
+text = "Quitter"
+
+[node name="SlotsPanel" type="VBoxContainer" parent="Root"]
+visible = false
+
+[node name="Title" type="Label" parent="Root/SlotsPanel"]
+text = "PARTIES"
+horizontal_alignment = 1
+
+[node name="SaveNameEdit" type="LineEdit" parent="Root/SlotsPanel"]
+placeholder_text = "Nom de sauvegarde"
+
+[node name="SlotList" type="ItemList" parent="Root/SlotsPanel"]
+custom_minimum_size = Vector2(520, 210)
+
+[node name="DeleteSaveButton" type="Button" parent="Root/SlotsPanel"]
+text = "Supprimer la sauvegarde sélectionnée"
+
+[node name="BackButton" type="Button" parent="Root/SlotsPanel"]
+text = "Retour"
+
+[node name="SettingsPanel" type="Panel" parent="Root"]
+visible = false
+custom_minimum_size = Vector2(760, 560)
+
+[node name="VBox" type="VBoxContainer" parent="Root/SettingsPanel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 28
+offset_top = 24
+offset_right = -28
+offset_bottom = -24
+
+[node name="Title" type="Label" parent="Root/SettingsPanel/VBox"]
+text = "PARAMÈTRES"
+horizontal_alignment = 1
+
+[node name="SettingsTabs" type="TabContainer" parent="Root/SettingsPanel/VBox"]
+size_flags_vertical = 3
+
+[node name="Audio" type="VBoxContainer" parent="Root/SettingsPanel/VBox/SettingsTabs"]
+
+[node name="AudioGrid" type="GridContainer" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio"]
+columns = 3
+
+[node name="MasterLabel" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+text = "Volume général"
+
+[node name="MasterSlider" type="HSlider" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+custom_minimum_size = Vector2(320, 0)
+min_value = 0
+max_value = 100
+value = 80
+
+[node name="MasterValue" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+text = "80%"
+
+[node name="MusicLabel" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+text = "Musique"
+
+[node name="MusicSlider" type="HSlider" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+custom_minimum_size = Vector2(320, 0)
+min_value = 0
+max_value = 100
+value = 80
+
+[node name="MusicValue" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+text = "80%"
+
+[node name="SfxLabel" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+text = "Effets"
+
+[node name="SfxSlider" type="HSlider" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+custom_minimum_size = Vector2(320, 0)
+min_value = 0
+max_value = 100
+value = 80
+
+[node name="SfxValue" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid"]
+text = "80%"
+
+[node name="FullscreenCheck" type="CheckButton" parent="Root/SettingsPanel/VBox/SettingsTabs/Audio"]
+text = "Plein écran"
+
+[node name="Touches" type="VBoxContainer" parent="Root/SettingsPanel/VBox/SettingsTabs"]
+
+[node name="KeyboardLabel" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Touches"]
+text = "Clavier automatique"
+
+[node name="ControlsScroll" type="ScrollContainer" parent="Root/SettingsPanel/VBox/SettingsTabs/Touches"]
+custom_minimum_size = Vector2(0, 330)
+size_flags_vertical = 3
+
+[node name="ControlsGrid" type="GridContainer" parent="Root/SettingsPanel/VBox/SettingsTabs/Touches/ControlsScroll"]
+columns = 3
+
+[node name="WaitLabel" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Touches"]
+text = "Clique sur Modifier."
+
+[node name="ResetControlsButton" type="Button" parent="Root/SettingsPanel/VBox/SettingsTabs/Touches"]
+text = "Remettre les touches automatiques"
+
+[node name="Langues" type="VBoxContainer" parent="Root/SettingsPanel/VBox/SettingsTabs"]
+
+[node name="LanguageLabel" type="Label" parent="Root/SettingsPanel/VBox/SettingsTabs/Langues"]
+text = "Langue"
+
+[node name="LanguageOption" type="OptionButton" parent="Root/SettingsPanel/VBox/SettingsTabs/Langues"]
+
+[node name="CloseSettingsButton" type="Button" parent="Root/SettingsPanel/VBox"]
+text = "Retour"
+
+[connection signal="pressed" from="Root/MainPanel/ContinueButton" to="." method="_on_continue_button_pressed"]
+[connection signal="pressed" from="Root/MainPanel/NewGameButton" to="." method="_on_new_game_button_pressed"]
+[connection signal="pressed" from="Root/MainPanel/LoadGameButton" to="." method="_on_load_game_button_pressed"]
+[connection signal="pressed" from="Root/MainPanel/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="Root/MainPanel/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="item_selected" from="Root/SlotsPanel/SlotList" to="." method="_on_slot_list_item_selected"]
+[connection signal="item_activated" from="Root/SlotsPanel/SlotList" to="." method="_on_slot_list_item_activated"]
+[connection signal="pressed" from="Root/SlotsPanel/DeleteSaveButton" to="." method="_on_delete_save_button_pressed"]
+[connection signal="pressed" from="Root/SlotsPanel/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="value_changed" from="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid/MasterSlider" to="." method="_on_master_slider_value_changed"]
+[connection signal="value_changed" from="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid/MusicSlider" to="." method="_on_music_slider_value_changed"]
+[connection signal="value_changed" from="Root/SettingsPanel/VBox/SettingsTabs/Audio/AudioGrid/SfxSlider" to="." method="_on_sfx_slider_value_changed"]
+[connection signal="toggled" from="Root/SettingsPanel/VBox/SettingsTabs/Audio/FullscreenCheck" to="." method="_on_fullscreen_check_toggled"]
+[connection signal="pressed" from="Root/SettingsPanel/VBox/SettingsTabs/Touches/ResetControlsButton" to="." method="_on_reset_controls_button_pressed"]
+[connection signal="item_selected" from="Root/SettingsPanel/VBox/SettingsTabs/Langues/LanguageOption" to="." method="_on_language_option_item_selected"]
+[connection signal="pressed" from="Root/SettingsPanel/VBox/CloseSettingsButton" to="." method="_on_close_settings_button_pressed"]

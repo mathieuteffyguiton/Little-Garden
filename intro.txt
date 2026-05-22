@@ -1,0 +1,365 @@
+LITTLE GARDEN — DÉBUT DU JEU (VISION VALIDÉE)
+
+HÉROS
+Nom fixe : John
+Âge : 20 ans
+
+Profil :
+Jeune homme issu d’une famille de marchands.
+Comme tous les jeunes hommes du pays, il a appris à manier l’épée à cause de la menace constante de guerre / terreur.
+
+Ce n’est pas un chevalier.
+C’est un futur vagabond qui partira en quête de vengeance et de reconstruction.
+
+━━━━━━━━━━━━━━━━━━━━
+FAMILLE
+━━━━━━━━━━━━━━━━━━━━
+
+MATHIS (petit frère)
+Âge : 16 à 17 ans
+
+Profil :
+- joyeux
+- optimiste
+- humain
+- intelligent émotionnellement
+- comprend que leur père est dur
+- lui aussi souffre de cette ambiance
+- rêve de partir vivre sa propre vie bientôt
+- malgré tout garde le sourire
+
+EDMUND (père)
+Profil :
+- autoritaire
+- rude
+- exigeant
+- discipliné
+- protecteur mais incapable d’exprimer ses émotions correctement
+- probablement ancien combattant ou fortement entraîné
+
+ELENA (mère)
+Profil :
+- douce
+- rassurante
+- refuge émotionnel de la famille
+- protectrice
+- chaleureuse
+
+━━━━━━━━━━━━━━━━━━━━
+VILLAGE DE DÉPART
+━━━━━━━━━━━━━━━━━━━━
+
+Type :
+Petit village marchand rural.
+
+Taille :
+- 5 à 6 maisons principales
+- 10 à 12 habitants hors famille
+
+Habitants importants :
+- maire
+- chef des soldats
+- 2 soldats
+- forgeron
+- marchands / artisans
+- habitants classiques
+
+Lieux principaux :
+- maison familiale
+- forge
+- maison du maire
+- poste de garde
+- boutique
+- place centrale avec puits
+
+Ambiance :
+- chaleureuse
+- vivante
+- simple
+- crédible
+- facile à mémoriser
+- sentiment de sécurité au début
+
+━━━━━━━━━━━━━━━━━━━━
+CONTEXTE DU MONDE
+━━━━━━━━━━━━━━━━━━━━
+
+Dans ce pays :
+
+Tous les jeunes hommes doivent apprendre à se battre à l’épée.
+
+Raison :
+- menace militaire
+- guerre potentielle
+- forces hostiles
+- terreur possible
+
+Le lore détaillé sera découvert plus tard via :
+- lettres
+- témoignages
+- fragments d’histoire
+- documents cachés
+
+━━━━━━━━━━━━━━━━━━━━
+INTRODUCTION DU JEU
+━━━━━━━━━━━━━━━━━━━━
+
+Cette introduction ne se joue QU’UNE FOIS :
+uniquement lors d’une nouvelle partie.
+
+Pas à chaque lancement.
+
+Début :
+
+John commence dans sa chambre.
+
+Son père Edmund entre dans la pièce.
+
+Dialogue :
+il lui ordonne d’aller à l’entraînement.
+
+Première mission :
+
+PARLER À LA FAMILLE
+
+Objectifs :
+- parler à Elena
+- parler à Mathis
+- découvrir quelques dialogues naturels
+- immersion familiale
+
+Après :
+sortir de la maison.
+
+Le joueur apparaît correctement devant la maison.
+
+━━━━━━━━━━━━━━━━━━━━
+DIALOGUES RECHERCHÉS
+━━━━━━━━━━━━━━━━━━━━
+
+Les dialogues doivent être humains.
+
+Pas des PNJ robots.
+
+Exemples :
+- petites discussions naturelles
+- inquiétudes
+- humour
+- relations crédibles
+- émotions visibles
+
+Mathis doit sembler vivant.
+Elena chaleureuse.
+Edmund dur mais crédible.
+
+━━━━━━━━━━━━━━━━━━━━
+ÉVÉNEMENT DRAMATIQUE
+━━━━━━━━━━━━━━━━━━━━
+
+Après le calme du village :
+attaque.
+
+Conséquences :
+
+Morts :
+- Edmund
+- Elena
+- Mathis
+- grande partie du village
+
+Survivants :
+- John
+- maire
+- forgeron
+- 1 ou 2 survivants maximum
+
+But :
+traumatisme fort + vraie motivation narrative.
+
+━━━━━━━━━━━━━━━━━━━━
+APRÈS L’ATTAQUE
+━━━━━━━━━━━━━━━━━━━━
+
+Le village devient le HUB principal du jeu.
+
+Fonction :
+base centrale du joueur.
+
+Évolution au fil du jeu :
+- reconstruction des bâtiments
+- retour de l’économie
+- nouvelles installations
+- amélioration du village
+- retour progressif à la vie
+
+Fin voulue :
+un village de nouveau habitable.
+
+━━━━━━━━━━━━━━━━━━━━
+ÉCONOMIE
+━━━━━━━━━━━━━━━━━━━━
+
+IMPORTANT :
+Pas d’armure.
+
+John n’est pas un chevalier.
+
+Équipement amélioré :
+- épée
+- bouclier
+
+Via le forgeron :
+- paiement en or
+- matériaux récupérés
+- éventuellement missions
+
+Objets vendables :
+- gemmes
+- ressources
+- loot ennemi
+- objets utiles
+
+Tous les objets doivent avoir une utilité.
+
+━━━━━━━━━━━━━━━━━━━━
+ANTI-SOFTLOCK
+━━━━━━━━━━━━━━━━━━━━
+
+Le joueur ne doit JAMAIS être bloqué sans argent.
+
+Solution :
+les ennemis réapparaissent.
+
+Ils drop :
+- ressources
+- loot revendable
+- matériaux
+
+Toujours moyen de refaire de l’or.
+
+━━━━━━━━━━━━━━━━━━━━
+STRUCTURE DES ZONES
+━━━━━━━━━━━━━━━━━━━━
+
+Chaque zone contient :
+
+- quêtes secondaires
+- secrets
+- coffres
+- puzzles
+- mécaniques uniques
+
+Carte de zone :
+Le joueur doit la trouver.
+
+Obtention :
+- coffre caché simple
+OU
+- petite quête
+
+Exception :
+le village possède sa carte directement.
+
+Chaque zone finit par un donjon.
+
+Le donjon reprend :
+- la mécanique principale de la zone
+- énigmes
+- progression logique
+- accès boss final
+
+━━━━━━━━━━━━━━━━━━━━
+PROGRESSION
+━━━━━━━━━━━━━━━━━━━━
+
+À chaque fin de donjon :
+
+John débloque une nouvelle capacité magique.
+
+Exemples :
+- dash
+- explosion
+- magie noire
+- autres pouvoirs
+
+Ces capacités servent obligatoirement ou fortement dans la zone suivante.
+
+Pas d’arbre de compétences complexe.
+
+Progression via :
+- niveaux
+- stats
+- équipement
+- pouvoirs obtenus
+
+Stats qui montent :
+- HP
+- attaque
+- défense
+- etc
+
+━━━━━━━━━━━━━━━━━━━━
+INTERFACES VALIDÉES
+━━━━━━━━━━━━━━━━━━━━
+
+Menu principal :
+- nouvelle partie
+- continuer
+- charger
+- supprimer sauvegarde
+- paramètres
+- quitter
+
+Pause menu :
+- reprendre
+- sauvegarder
+- inventaire
+- carte
+- paramètres
+- sauvegarder et retour menu
+- quitter sans sauvegarder
+
+Paramètres :
+- audio
+- musique
+- effets
+- plein écran
+- langues
+- touches modifiables
+
+IMPORTANT :
+clavier détecté automatiquement
+(AZERTY / QWERTY selon machine)
+
+Inventaire :
+onglets :
+- équipement
+- ressources
+- objets
+- quêtes
+- lore
+
+Carte :
+- carte globale des zones
+- cartes individuelles trouvées en exploration
+
+━━━━━━━━━━━━━━━━━━━━
+STYLE GÉNÉRAL
+━━━━━━━━━━━━━━━━━━━━
+
+Genre :
+Top-down Action RPG
+
+Thèmes :
+- vengeance
+- perte
+- reconstruction
+- exploration
+- mystère
+- magie noire
+- montée en puissance
+
+Inspirations :
+- Zelda
+- RPG d’exploration
+- progression zone par zone

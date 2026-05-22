@@ -1,0 +1,16 @@
+config_version=5
+
+[application]
+config/name="Little Garden Clean Systems"
+run/main_scene="res://scenes/main/MainMenu.tscn"
+config/features=PackedStringArray("4.3")
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[autoload]
+SettingsManager="*res://autoload/SettingsManager.gd"
+InputManager="*res://autoload/InputManager.gd"
+GameState="*res://autoload/GameState.gd"
+SaveManager="*res://autoload/SaveManager.gd"
